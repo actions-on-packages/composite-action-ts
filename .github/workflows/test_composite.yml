@@ -11,5 +11,3 @@ jobs:
        - name: Ts Action
 #          uses: actions-on-packages/typescript-action@1.0.12 //Working till setup
          uses: actions-on-packages/composite-action-ts@1.0.0
-         with:
-              milliseconds : 1000
