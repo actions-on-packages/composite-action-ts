@@ -9,6 +9,8 @@ runs:
 
     - name: Typescript-Action
       uses: actions-on-packages/typescript-action@1.4.21
+      with:
+        milliseconds: 1000
 
     - name: Echo 
       run: |
